@@ -7,7 +7,7 @@ spec:
   selector:
     app: medicserver
   ports:
-    - port: 3005
+    - port: 3020
       protocol: TCP
-      targetPort: 3005
+      targetPort: 3020
       nodePort: 30300
