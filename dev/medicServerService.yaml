@@ -3,10 +3,12 @@ kind: Service
 metadata:
   name: medicserver-service
 spec:
+  type: NodePort
   selector:
     app: medicserver
   ports:
   - port: 3005
     protocol: TCP
     targetPort: 3005
+    nodePort: 30200
   
