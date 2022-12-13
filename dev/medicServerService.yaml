@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: medicServer-service
+  name: medicserver-service
 spec:
   selector:
-    app: medicServer
+    app: medicserver
   ports:
   - port: 3005
     protocol: TCP
