@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: medicclient
-          image: bibi1989/medic-client:v1.1.2
+          image: bibi1989/medic-client:v1
           ports:
             - containerPort: 3005
