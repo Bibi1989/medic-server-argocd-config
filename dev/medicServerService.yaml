@@ -10,4 +10,4 @@ spec:
     - port: 3020
       protocol: TCP
       targetPort: 3020
-      nodePort: 30300
+      nodePort: 30350
